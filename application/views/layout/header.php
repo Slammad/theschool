@@ -83,17 +83,7 @@ if ($this->customlib->getRTL() != "") {
 
 
  <?php
-if ($this->config->item('SSLK') == "") {
-    ?>
- <div class="topaleart">
-    <div class="slidealert">
-    <div class="alert alert-dismissible topaleart-inside">
-  <!-- <button type="button" class="close" data-dismiss="alert" aria-label="close">&times;</button> -->
-   <p class="palert"><strong>Alert!</strong> You are using unregistered version of Smart School. Please <a  href="#" class="purchasemodal">click here</a> to register your purchase code for Smart School.</p>
-</div></div>
-</div>
-                    <?php
-}
+
 ?>
        <div class="wrapper">
 
